@@ -1,0 +1,5 @@
+﻿Build started...
+1>------ Build started: Project: Arrays_Assignment, Configuration: Debug Any CPU ------
+1>C:\Users\Laptop\source\repos\Arrays_Assignment\Program.cs(19,37,19,38): error CS0443: Syntax error; value expected
+1>Done building project "Arrays_Assignment.csproj" -- FAILED.
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
