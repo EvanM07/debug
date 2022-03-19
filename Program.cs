@@ -9,52 +9,21 @@ namespace ConsoleApp
     {
         static void Main()
         {
-            ////this is a infinite loop
-            //for (int a = 0; a < 50; a--)
-            //{
-            //    Console.WriteLine("value : {0}", a);
-            //}
-            //Console.ReadLine();
+            Console.WriteLine("We need three seperate numbers \n");
 
-            ////fixed the loop
-            //for (int a = 0; a < 50; a++)
-            //{
-            //    Console.WriteLine("value : {0}", a);
-            //}
-            //Console.ReadLine();
+            Console.WriteLine("Input first number ");
+            int number1 = Convert.ToInt32(Console.ReadLine());
 
+            Console.WriteLine("Input second number ");
+            int number2 = Convert.ToInt32(Console.ReadLine());
 
-            //for (int i = 0; i <10000; i++ )
-            //{
-            //    Console.WriteLine(i);
-            //}
+            Console.WriteLine("Input third number");
+            int number3 = Convert.ToInt32(Console.ReadLine());
 
-            //for (int x = 0; x <= 500; x++)
-            //{
-            //    Console.WriteLine(x);
-            //}
+            Console.WriteLine("Now we are going to do something with these numbers. Don't ask what tho...");
 
 
-            List<string> things = new List<string>() { "car", "dog", "cat", "house", "vaccuum", "table", "cup" };
 
-            Console.WriteLine(string.Join(", ", things));
-            Console.ReadLine();
-
-            Console.WriteLine("Please choose a word in the list");
-            string input = Console.ReadLine();
-
-            foreach (string thing in things)
-            {
-                if (input == things)
-                {
-                    Console.WriteLine(input);
-                }
-
-                else
-                {
-                    Console.WriteLine("sorry do not understand");
-                }
-            }
         }
     }
 }
