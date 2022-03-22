@@ -1,0 +1,74 @@
+        static void Main(string[] args)
+
+
+            Console.WriteLine("We are going to be inputing some numbers here ");
+
+             public int number40 = Convert.ToInt32(Console.ReadLine());
+    public int number50 = Convert.ToInt32(Console.ReadLine());
+
+
+
+    Console.ReadLine();
+
+          
+               
+            theMaking maybe = new theMaking();
+    //Console.WriteLine("this is the first number");
+    //maybe.num01 = Convert.ToString( Console.ReadLine());
+    //Console.WriteLine("this second number is optional for input");
+    //maybe.num02 = Convert.ToString(Console.ReadLine());
+    //maybe.method();
+
+    maybe.num04 = 16;
+                maybe.num05 = 2;
+
+
+
+                maybe.method();
+
+
+
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Classes_and_Methods_Assignment_2
+{
+    public class theMaking
+    {
+        //public string num01 = Convert.ToString ( Console.ReadLine());
+        ////public string message = Console.WriteLine("THIS SECOND NUMBER IS OPTIONAL");
+        //public string num02 = Convert.ToString(Console.ReadLine());
+
+
+        public int num04 = 3;
+        public int num05 = 4;
+
+        public int method()
+        {
+            //string answer = num01 * num02;
+            //return answer;
+
+            int answerTwo = num04 * num05;
+
+
+            Console.WriteLine("the answer is " + answerTwo);
+            Console.ReadLine();
+            return answerTwo;
+        
+
+            int answerthree = 
+        }
+
+
+
+        
+
+
+    }
+}

@@ -1,29 +1,62 @@
 ﻿using System;
+
+namespace Classes_and_Methods_Assignment_2
+{
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+
+            theMaking maybe = new theMaking();
+
+            int num1;
+
+            int num2;
+
+            Console.WriteLine("Please input a number");
+            num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("This second number is optional");
+            num2 = Convert.ToInt32(Console.ReadLine());
+
+            if (num2 == null)
+            {
+                maybe.method();
+
+            }
+
+            else
+            {
+                int option2 = num1 * num2;
+            }
+
+        }
+    }
+
+
+
+
+    /////////////////////////////////this is the second class that also has the method 
+    ///////////////////////
+    ///
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-namespace ConsoleApp
-{
-    class Program
+
+namespace Classes_and_Methods_Assignment_2
     {
-        static void Main()
+        class theMaking
         {
-            Console.WriteLine("We need three seperate numbers \n");
 
-            Console.WriteLine("Input first number ");
-            int number1 = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Input second number ");
-            int number2 = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Input third number");
-            int number3 = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Now we are going to do something with these numbers. Don't ask what tho...");
-
-
-
+            public int Method(int num1, int num2 = 4)
+            {
+                int answer = num1 + num2;
+                return answer;
+            }
         }
     }
+
+
 }
+
