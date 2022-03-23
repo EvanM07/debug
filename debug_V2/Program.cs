@@ -18,6 +18,7 @@ namespace Classes_and_Methods_Assignment_2
             Console.WriteLine("This second number is optional");
             num2 = Convert.ToInt32(Console.ReadLine());
 
+
             if (num2 == "")
             {
 
@@ -28,8 +29,9 @@ namespace Classes_and_Methods_Assignment_2
 
             else
             {
-                //num2 converted = Convert.ToInt32;
+                num2 converted = Convert.ToInt32;
                 maybe.Method(num1 = 3, num2 = 4);
+                maybe.Method(num1 = 3, converted = 4);
             }
 
         }
