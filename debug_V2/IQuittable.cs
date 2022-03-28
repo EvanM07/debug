@@ -4,9 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace debug_V2
+namespace Abstract_Classes_Assignment
 {
-    interface IQuittable
+    public interface IQuittable
     {
+        public void Quit()
+        {
+            Console.WriteLine("I quit this job");
+            Console.ReadLine();
+
+        }
     }
 }

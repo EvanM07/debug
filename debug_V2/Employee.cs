@@ -4,9 +4,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace debug_V2
+namespace Abstract_Classes_Assignment
 {
-    class Employee
+    public class Employee : IQuittable
     {
+        //public override void SayName()
+        //{
+        //    base.SayName();
+
+        //}
+
+        public string firstName { get; set; }
+        public string lastName { get; set; }
+
+        public virtual void SayName()
+        {
+            string FirstName = firstName;
+            string LastName = lastName;
+            string fullName = firstName + lastName;
+
+            Console.WriteLine("The person's full name is " + fullName);
+            Console.ReadLine();
+        }
+
+
+
     }
+
+
 }
