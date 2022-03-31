@@ -18,6 +18,7 @@ namespace Abstract_Classes_Assignment
                 newEmployee2.firstName = "David";
                 newEmployee2.lastName = "Happy";
                 newEmployee2.SayName();
+                newEmployee2.Quit();
                 //newEmployee2.Quit(string answer = "yes");
             }
 
